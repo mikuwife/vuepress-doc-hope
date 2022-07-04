@@ -10,8 +10,14 @@ import { useScrollPromise } from "@theme-hope/composables";
 import { injectDarkMode, setupDarkMode } from "@theme-hope/module/outlook/composables";
 import { setupSidebarItems } from "@theme-hope/module/sidebar/composables";
 
-import "D:/website/vuepress-hope/node_modules/vuepress-theme-hope/lib/client/styles/index.scss";
+import "C:/Users/mikucat/Desktop/vuepress-hope/node_modules/vuepress-theme-hope/lib/client/styles/index.scss";
 
+
+import BloggerInfo from "@theme-hope/module/blog/components/BloggerInfo";
+import BlogHome from "@theme-hope/module/blog/components/BlogHome";
+import BlogPage from "@theme-hope/module/blog/components/BlogPage";
+import { setupBlog } from "@theme-hope/module/blog/composables";
+import "C:/Users/mikucat/Desktop/vuepress-hope/node_modules/vuepress-theme-hope/lib/client/module/blog/styles/layout.scss";
 
 
 export default defineClientConfig({
@@ -35,10 +41,15 @@ export default defineClientConfig({
     app.component("Sidebar", Sidebar);
 
     
+    app.component("BloggerInfo", BloggerInfo);
+    app.component("BlogHome", BlogHome);
+    app.component("BlogPage", BlogPage);
+    
   },
   setup: () => {
     setupDarkMode();
     setupSidebarItems();
+    setupBlog();
     
   },
 });

@@ -3,21 +3,22 @@ import navbar from "./navbar";
 import sidebar from "./sidebar";
 
 export default hopeTheme({
-  pure: true,
+  // pure: true,
   hostname: "https://doc.mikucat.cn",
 
   author: {
-    name: "MikuCat",
+    name: "参谋次长",
     url: "https://mikucat.cn",
   },
 
   iconAssets: "iconfont",
 
-  logo: "/logo.svg",
+  logo: "/avatar.png",
 
+  // docsRepo: "vuepress-doc-hope",
   repo: "mikuwife/vuepress-doc-hope",
 
-  // docsDir: "demo/src",
+  docsDir: "vuepress-hope",
 
   // navbar
   navbar: navbar,
@@ -25,20 +26,15 @@ export default hopeTheme({
   // sidebar
   sidebar: sidebar,
 
-  // footer: '<a href="https://beian.miit.gov.cn/">赣 ICP 备 2021007302 号</a> </br> Copyright © 2022-present BY MikuCat </br> Power by <a href="https://v2.vuepress.vuejs.org/">vuepress</a> & Theme by <a href="https://github.com/vuepress-theme-hope">hope</a>',
+  footer: '<a href="https://beian.miit.gov.cn/">赣 ICP 备 2021007302 号</a> </br>  Power by <a href="https://v2.vuepress.vuejs.org/">vuepress</a> & Theme by <a href="https://github.com/vuepress-theme-hope">hope</a>',
 
   displayFooter: true,
 
   pageInfo: ["Author", "Date","ReadingTime"],
 
-  // encrypt: {
-  //   config: {
-  //     "/guide/encrypt.html": ["1234"],
-  //   },
-  // },
-
   plugins: {
-    blog: false,
+    blog: {
+    },
 
     // 如果你不需要评论，可以直接删除 comment 配置，
     // 以下配置仅供体验，如果你需要评论，请自行配置并使用自己的环境，详见文档。

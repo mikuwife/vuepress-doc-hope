@@ -1,9 +1,9 @@
-import { useStyleTag } from "D:/website/vuepress-hope/node_modules/vuepress-plugin-components/lib/client/composables";
+import { useStyleTag } from "C:/Users/mikucat/Desktop/vuepress-hope/node_modules/vuepress-plugin-components/lib/client/composables";
 import { h } from "vue";
 import { defineClientConfig } from "@vuepress/client";
-import Badge from "D:/website/vuepress-hope/node_modules/vuepress-plugin-components/lib/client/components/Badge";
-import FontIcon from "D:/website/vuepress-hope/node_modules/vuepress-plugin-components/lib/client/components/FontIcon";
-import BackToTop from "D:/website/vuepress-hope/node_modules/vuepress-plugin-components/lib/client/components/BackToTop";
+import Badge from "C:/Users/mikucat/Desktop/vuepress-hope/node_modules/vuepress-plugin-components/lib/client/components/Badge";
+import FontIcon from "C:/Users/mikucat/Desktop/vuepress-hope/node_modules/vuepress-plugin-components/lib/client/components/FontIcon";
+import BackToTop from "C:/Users/mikucat/Desktop/vuepress-hope/node_modules/vuepress-plugin-components/lib/client/components/BackToTop";
 
 
 export default defineClientConfig({
