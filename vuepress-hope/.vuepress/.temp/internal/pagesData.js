@@ -1,8 +1,8 @@
 export const pagesData = {
   // path: /
   "v-8daa1a0e": () => import(/* webpackChunkName: "v-8daa1a0e" */"C:/Users/mikucat/Desktop/vuepress-hope/vuepress-hope/.vuepress/.temp/pages/index.html.js").then(({ data }) => data),
-  // path: /blog/hello-world.html
-  "v-00ba2c54": () => import(/* webpackChunkName: "v-00ba2c54" */"C:/Users/mikucat/Desktop/vuepress-hope/vuepress-hope/.vuepress/.temp/pages/blog/hello-world.html.js").then(({ data }) => data),
+  // path: /blog/%E4%BD%BF%E7%94%A8algolia.html
+  "v-10c7d7f9": () => import(/* webpackChunkName: "v-10c7d7f9" */"C:/Users/mikucat/Desktop/vuepress-hope/vuepress-hope/.vuepress/.temp/pages/blog/使用algolia.html.js").then(({ data }) => data),
   // path: /web/css/%E5%9F%BA%E7%A1%80.html
   "v-06fcdc21": () => import(/* webpackChunkName: "v-06fcdc21" */"C:/Users/mikucat/Desktop/vuepress-hope/vuepress-hope/.vuepress/.temp/pages/web/css/基础.html.js").then(({ data }) => data),
   // path: /web/css/%E5%AD%97%E4%BD%93.html

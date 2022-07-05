@@ -6,7 +6,7 @@ export default navbar([
     text: "代码笔记",
     icon: "light",
     children: [
-      { text: "前端之路", icon: "light", link: "/web/html/基础" },
+      { text: "前端之路", icon: "strong", link: "/web/html/基础" },
     ]
   },
   // { text: 'blog', link: "blog"} 

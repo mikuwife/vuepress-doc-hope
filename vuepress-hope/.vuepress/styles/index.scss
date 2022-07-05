@@ -2,3 +2,17 @@
     font-family: JMono;
     src: url(./fonts/JetBrainsMono-ExtraLight.ttf);
 }
+
+.blogger-info .blogger-avatar {
+    width: 8rem;
+    height: 8rem;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.navbar .logo {
+    vertical-align: top;
+    height: var(--navbar-line-height);
+    margin-right: 0.8rem;
+    border-radius: 50%;
+}

@@ -1,12 +1,9 @@
-<template><div><h1 id="基础" tabindex="-1"><a class="header-anchor" href="#基础" aria-hidden="true">#</a> 基础</h1>
-<h2 id="编写方式" tabindex="-1"><a class="header-anchor" href="#编写方式" aria-hidden="true">#</a> 编写方式</h2>
-<div class="custom-container info"><p class="custom-container-title">相关信息</p>
-<p><code v-pre>优先级</code></p>
+<template><div><h2 id="编写方式" tabindex="-1"><a class="header-anchor" href="#编写方式" aria-hidden="true">#</a> 编写方式</h2>
+<p><strong>优先级</strong></p>
 <ul>
 <li>内联样式优先级最高</li>
 <li>内部样式和外部样式看代码的顺序(后面的覆盖前面的)</li>
 </ul>
-</div>
 <h3 id="外部样式-可以最大程度利用浏览器缓存机制" tabindex="-1"><a class="header-anchor" href="#外部样式-可以最大程度利用浏览器缓存机制" aria-hidden="true">#</a> <code v-pre>外部样式</code>: 可以最大程度利用浏览器<code v-pre>缓存机制</code></h3>
 <div class="language-html ext-html line-numbers-mode"><pre v-pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>css/style.css<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3 id="内部样式-在head中使用style标签" tabindex="-1"><a class="header-anchor" href="#内部样式-在head中使用style标签" aria-hidden="true">#</a> 内部样式: 在head中使用style标签</h3>
@@ -30,22 +27,22 @@
 <tr>
 <td>元素选择器</td>
 <td>元素 {}</td>
-<td>匹配所有同名元素</td>
+<td>所有同名元素</td>
 </tr>
 <tr>
 <td>id选择器</td>
 <td>#id属性值 {}</td>
-<td>匹配指定id属性元素</td>
+<td>指定id属性元素</td>
 </tr>
 <tr>
 <td>类选择器</td>
 <td>.class属性值 {}</td>
-<td>匹配指定class属性元素</td>
+<td>指定class属性元素</td>
 </tr>
 <tr>
 <td>通配符选择器</td>
 <td>* {}</td>
-<td>匹配所有元素</td>
+<td>所有元素</td>
 </tr>
 </tbody>
 </table>
@@ -72,7 +69,6 @@
 </tbody>
 </table>
 <h3 id="关系选择器" tabindex="-1"><a class="header-anchor" href="#关系选择器" aria-hidden="true">#</a> 关系选择器</h3>
-<div class="custom-container info"><p class="custom-container-title">相关信息</p>
 <ul>
 <li>父元素: 直接包含子元素的元素叫父元素</li>
 <li>子元素: 直接被父元素包含的元素是子元素</li>
@@ -94,7 +90,6 @@
 </ul>
 </li>
 </ul>
-</div>
 <table>
 <thead>
 <tr>
@@ -164,7 +159,7 @@
 </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">theme</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>dark<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>11111111111<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="伪类选择器" tabindex="-1"><a class="header-anchor" href="#伪类选择器" aria-hidden="true">#</a> 伪类选择器</h3>
-<div class="custom-container info"><p class="custom-container-title">相关信息</p>
+<div class="custom-container tip"><p class="custom-container-title">注意</p>
 <p>伪类: 用来描述一个元素的特殊状态(第一个子元素, 被点击的元素, 鼠标移入的元素...)
 伪类通常都是<code v-pre>:</code>开头</p>
 </div>
@@ -231,7 +226,7 @@
 </tbody>
 </table>
 <h3 id="伪元素选择器" tabindex="-1"><a class="header-anchor" href="#伪元素选择器" aria-hidden="true">#</a> 伪元素选择器</h3>
-<div class="custom-container info"><p class="custom-container-title">相关信息</p>
+<div class="custom-container tip"><p class="custom-container-title">注意</p>
 <p><code v-pre>伪元素</code>: 表示页面中特殊并不真实存在的元素(特殊的位置)
 伪元素通常都是<code v-pre>::</code>开头</p>
 </div>
@@ -284,21 +279,20 @@
 
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">></span></span>龙族<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="样式的继承" tabindex="-1"><a class="header-anchor" href="#样式的继承" aria-hidden="true">#</a> 样式的继承</h2>
-<div class="custom-container info"><p class="custom-container-title">相关信息</p>
+<div class="custom-container tip"><p class="custom-container-title">注意</p>
 <p>我们为一个元素设置的样式同时也会应用到它的后代元素上
 继承是发生在祖先和后代之间的
 利用继承可以将通用的样式设置到共同的祖先元素上，这样只需设置一次就可以让所有元素都具有该样式</p>
 </div>
-<p>:::caution
-<code v-pre>并不是</code>所有的样式都会被继承(背景相关，布局相关等样式都不会被继承)
-:::</p>
+<div class="custom-container info"><p class="custom-container-title">细节</p>
+<p><code v-pre>并不是</code>所有的样式都会被继承(背景相关，布局相关等样式都不会被继承)</p>
+</div>
 <h2 id="选择器的权重" tabindex="-1"><a class="header-anchor" href="#选择器的权重" aria-hidden="true">#</a> 选择器的权重</h2>
-<p>:::caution
-样式冲突: 当通过不同的选择器，选中相同的元素，并且为相同的样式设置不同的值时，就发生了样式冲突
-:::</p>
-<div class="custom-container info"><p class="custom-container-title">相关信息</p>
-<p>发生样式冲突时，应用哪个样式由选择器的权重(优先级)决定
-选择器的权重</p>
+<div class="custom-container note"><p class="custom-container-title">样式冲突</p>
+<p>当通过不同的选择器，选中相同的元素，并且为相同的样式设置不同的值时，就发生了样式冲突</p>
+</div>
+<div class="custom-container info"><p class="custom-container-title">发生样式冲突时，应用哪个样式由选择器的权重(优先级)决定</p>
+<p>选择器的权重</p>
 <ul>
 <li>内联样式: 1，0，0，0</li>
 <li>id选择器: 0，1，0，0</li>
@@ -309,11 +303,17 @@
 <li><code v-pre>!important</code>: 最高的优先级(此时样式属性不可被覆盖)</li>
 </ul>
 </div>
-<p>:::caution
-比较优先级时，需要将所有的选择器优先级进行相加计算，最后优先级越高，则越优先显示(分组选择器时单独计算的)
-选择器的累计不会超过其最大数量级，类选择器再高也不会超过id选择器
-如果优先级计算后相同，则后面的覆盖前面的
-:::</p>
+<ul>
+<li>
+<p>比较优先级时，需要将所有的选择器优先级进行相加计算，最后优先级越高，则越优先显示(分组选择器时单独计算的)</p>
+</li>
+<li>
+<p>选择器的累计不会超过其最大数量级，类选择器再高也不会超过id选择器</p>
+</li>
+<li>
+<p>如果优先级计算后相同，则后面的覆盖前面的</p>
+</li>
+</ul>
 <h2 id="长度单位" tabindex="-1"><a class="header-anchor" href="#长度单位" aria-hidden="true">#</a> 长度单位</h2>
 <table>
 <thead>

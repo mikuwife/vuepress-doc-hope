@@ -1,7 +1,7 @@
 export const pagesRoutes = [
   ["v-8daa1a0e","/",{"title":"主页","icon":"home","type":"home","readingTime":{"minutes":0,"words":0},"excerpt":""},["/index.html","/README.md"]],
-  ["v-00ba2c54","/blog/hello-world.html",{"title":"这是我的第一篇vuepress文章","type":"article","readingTime":{"minutes":0.01,"words":2},"excerpt":"","category":["vuepress"],"tag":["vuepress"]},["/blog/hello-world","/blog/hello-world.md"]],
-  ["v-06fcdc21","/web/css/%E5%9F%BA%E7%A1%80.html",{"title":"基础","type":"page","readingTime":{"minutes":5.4,"words":1619},"excerpt":""},["/web/css/基础.html","/web/css/%E5%9F%BA%E7%A1%80","/web/css/基础.md","/web/css/%E5%9F%BA%E7%A1%80.md"]],
+  ["v-10c7d7f9","/blog/%E4%BD%BF%E7%94%A8algolia.html",{"title":"使用algolia用作网站搜索","type":"article","readingTime":{"minutes":1.42,"words":426},"excerpt":"","category":["vuepress"],"tag":["vuepress"]},["/blog/使用algolia.html","/blog/%E4%BD%BF%E7%94%A8algolia","/blog/使用algolia.md","/blog/%E4%BD%BF%E7%94%A8algolia.md"]],
+  ["v-06fcdc21","/web/css/%E5%9F%BA%E7%A1%80.html",{"title":"基础","type":"page","readingTime":{"minutes":5.38,"words":1614},"excerpt":""},["/web/css/基础.html","/web/css/%E5%9F%BA%E7%A1%80","/web/css/基础.md","/web/css/%E5%9F%BA%E7%A1%80.md"]],
   ["v-da729486","/web/css/%E5%AD%97%E4%BD%93.html",{"title":"字体","type":"page","readingTime":{"minutes":1.87,"words":561},"excerpt":""},["/web/css/字体.html","/web/css/%E5%AD%97%E4%BD%93","/web/css/字体.md","/web/css/%E5%AD%97%E4%BD%93.md"]],
   ["v-7bf23498","/web/css/%E5%AE%9A%E4%BD%8D.html",{"title":"定位","type":"page","readingTime":{"minutes":2.79,"words":836},"excerpt":""},["/web/css/定位.html","/web/css/%E5%AE%9A%E4%BD%8D","/web/css/定位.md","/web/css/%E5%AE%9A%E4%BD%8D.md"]],
   ["v-a598cb56","/web/css/%E5%B8%83%E5%B1%80.html",{"title":"布局(网页默认)","type":"page","readingTime":{"minutes":5.28,"words":1584},"excerpt":""},["/web/css/布局.html","/web/css/%E5%B8%83%E5%B1%80","/web/css/布局.md","/web/css/%E5%B8%83%E5%B1%80.md"]],
