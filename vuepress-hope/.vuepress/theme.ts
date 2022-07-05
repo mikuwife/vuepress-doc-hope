@@ -4,11 +4,18 @@ import sidebar from "./sidebar";
 
 export default hopeTheme({
   // pure: true,
-  hostname: "https://doc.mikucat.cn",
+  hostname: "https://mikucat.cn",
 
   author: {
     name: "参谋次长",
     url: "https://mikucat.cn",
+  },
+
+  themeColor: {
+    blue: "#2196f3",
+    red: "#f26d6d",
+    green: "#3eaf7c",
+    orange: "#fb9b5f",
   },
 
   iconAssets: "iconfont",
@@ -45,7 +52,7 @@ export default hopeTheme({
     },
 
     mdEnhance: {
-      enableAll: true,
+      codetabs: true,
       presentation: {
         plugins: ["highlight", "math", "search", "notes", "zoom"],
       },

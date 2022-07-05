@@ -41,7 +41,7 @@
 <ul>
 <li>top，left移动自己; bottom，right移动别人</li>
 <li>会占用空间</li>
-<li><img src="/img/posts/盒模型示例.png" alt="盒模型示例" loading="lazy"></li>
+<li><img src="/img/posts/盒模型示例.png" alt="盒模型示例"></li>
 </ul>
 </li>
 </ul>

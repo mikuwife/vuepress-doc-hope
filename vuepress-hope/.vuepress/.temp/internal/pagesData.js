@@ -3,8 +3,6 @@ export const pagesData = {
   "v-8daa1a0e": () => import(/* webpackChunkName: "v-8daa1a0e" */"C:/Users/mikucat/Desktop/vuepress-hope/vuepress-hope/.vuepress/.temp/pages/index.html.js").then(({ data }) => data),
   // path: /blog/hello-world.html
   "v-00ba2c54": () => import(/* webpackChunkName: "v-00ba2c54" */"C:/Users/mikucat/Desktop/vuepress-hope/vuepress-hope/.vuepress/.temp/pages/blog/hello-world.html.js").then(({ data }) => data),
-  // path: /web/html.html
-  "v-b761a68c": () => import(/* webpackChunkName: "v-b761a68c" */"C:/Users/mikucat/Desktop/vuepress-hope/vuepress-hope/.vuepress/.temp/pages/web/html.html.js").then(({ data }) => data),
   // path: /web/css/%E5%9F%BA%E7%A1%80.html
   "v-06fcdc21": () => import(/* webpackChunkName: "v-06fcdc21" */"C:/Users/mikucat/Desktop/vuepress-hope/vuepress-hope/.vuepress/.temp/pages/web/css/基础.html.js").then(({ data }) => data),
   // path: /web/css/%E5%AD%97%E4%BD%93.html
@@ -17,6 +15,8 @@ export const pagesData = {
   "v-4ecc8dfd": () => import(/* webpackChunkName: "v-4ecc8dfd" */"C:/Users/mikucat/Desktop/vuepress-hope/vuepress-hope/.vuepress/.temp/pages/web/css/浮动.html.js").then(({ data }) => data),
   // path: /web/css/%E8%83%8C%E6%99%AF.html
   "v-b3d28df4": () => import(/* webpackChunkName: "v-b3d28df4" */"C:/Users/mikucat/Desktop/vuepress-hope/vuepress-hope/.vuepress/.temp/pages/web/css/背景.html.js").then(({ data }) => data),
+  // path: /web/html/%E5%9F%BA%E7%A1%80.html
+  "v-d11af81e": () => import(/* webpackChunkName: "v-d11af81e" */"C:/Users/mikucat/Desktop/vuepress-hope/vuepress-hope/.vuepress/.temp/pages/web/html/基础.html.js").then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => import(/* webpackChunkName: "v-3706649a" */"C:/Users/mikucat/Desktop/vuepress-hope/vuepress-hope/.vuepress/.temp/pages/404.html.js").then(({ data }) => data),
   // path: /category/

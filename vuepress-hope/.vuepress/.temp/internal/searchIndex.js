@@ -21,106 +21,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "HTML",
-    "headers": [
-      {
-        "level": 2,
-        "title": "块和行内块元素",
-        "slug": "块和行内块元素",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "实体(转义字符)",
-        "slug": "实体-转义字符",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "meta(元数据)",
-        "slug": "meta-元数据",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "语义化标签",
-        "slug": "语义化标签",
-        "children": [
-          {
-            "level": 3,
-            "title": "基本标签",
-            "slug": "基本标签",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "布局标签",
-            "slug": "布局标签",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "列表",
-        "slug": "列表",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "超链接",
-        "slug": "超链接",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "图片标签",
-        "slug": "图片标签",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "iframe(内联框架)",
-        "slug": "iframe-内联框架",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "音视频",
-        "slug": "音视频",
-        "children": [
-          {
-            "level": 3,
-            "title": "音频(audio)",
-            "slug": "音频-audio",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "视频(video)",
-            "slug": "视频-video",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "表格",
-        "slug": "表格",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "表单",
-        "slug": "表单",
-        "children": []
-      }
-    ],
-    "path": "/web/html.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "基础",
     "headers": [
       {
@@ -575,6 +475,106 @@ export const searchIndex = [
       }
     ],
     "path": "/web/css/%E8%83%8C%E6%99%AF.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "基础",
+    "headers": [
+      {
+        "level": 2,
+        "title": "块和行内块元素",
+        "slug": "块和行内块元素",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "实体(转义字符)",
+        "slug": "实体-转义字符",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "meta(元数据)",
+        "slug": "meta-元数据",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "语义化标签",
+        "slug": "语义化标签",
+        "children": [
+          {
+            "level": 3,
+            "title": "基本标签",
+            "slug": "基本标签",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "布局标签",
+            "slug": "布局标签",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "列表",
+        "slug": "列表",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "超链接",
+        "slug": "超链接",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "图片标签",
+        "slug": "图片标签",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "iframe(内联框架)",
+        "slug": "iframe-内联框架",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "音视频",
+        "slug": "音视频",
+        "children": [
+          {
+            "level": 3,
+            "title": "音频(audio)",
+            "slug": "音频-audio",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "视频(video)",
+            "slug": "视频-video",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "表格",
+        "slug": "表格",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "表单",
+        "slug": "表单",
+        "children": []
+      }
+    ],
+    "path": "/web/html/%E5%9F%BA%E7%A1%80.html",
     "pathLocale": "/",
     "extraFields": []
   },

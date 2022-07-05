@@ -94,21 +94,21 @@
 </ul>
 </li>
 </ul>
-<div class="language-text ext-text line-numbers-mode"><pre v-pre class="language-text"><code>&lt;!-- 解决图片在元素内对不齐边线的问题 -->
+<div class="language-html ext-html line-numbers-mode"><pre v-pre class="language-html"><code><span class="token comment">&lt;!-- 解决图片在元素内对不齐边线的问题 --></span>
 
-&lt;style>
-    p {
-        border: 1px solid red;
-    }
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span><span class="token punctuation">></span></span><span class="token style"><span class="token language-css">
+    <span class="token selector">p</span> <span class="token punctuation">{</span>
+        <span class="token property">border</span><span class="token punctuation">:</span> 1px solid red<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
 
-    img {
-        vertical-align: top;
-    }
-&lt;/style>
+    <span class="token selector">img</span> <span class="token punctuation">{</span>
+        <span class="token property">vertical-align</span><span class="token punctuation">:</span> top<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">></span></span>
 
-&lt;p>
-    &lt;img src="./imgs/2.jpg">
-&lt;/p>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>./imgs/2.jpg<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span>
 </code></pre><div class="highlight-lines"><br><br><br><br><br><br><br><br><div class="highlight-line">&nbsp;</div><br><br><br><br><br><br></div><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="超出部分省略号表示" tabindex="-1"><a class="header-anchor" href="#超出部分省略号表示" aria-hidden="true">#</a> 超出部分省略号表示</h3>
 <div class="language-css ext-css line-numbers-mode"><pre v-pre class="language-css"><code><span class="token property">white-space</span><span class="token punctuation">:</span> nowrap<span class="token punctuation">;</span>
 <span class="token property">overflow</span><span class="token punctuation">:</span> hidden<span class="token punctuation">;</span>
