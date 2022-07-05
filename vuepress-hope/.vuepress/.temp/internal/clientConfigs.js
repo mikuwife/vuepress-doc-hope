@@ -8,7 +8,7 @@ import clientConfig6 from 'C:/Users/mikucat/Desktop/vuepress-hope/node_modules/v
 import clientConfig7 from 'C:/Users/mikucat/Desktop/vuepress-hope/vuepress-hope/.vuepress/.temp/md-enhance/config.js'
 import clientConfig8 from 'C:/Users/mikucat/Desktop/vuepress-hope/node_modules/vuepress-plugin-photo-swipe/lib/client/config.js'
 import clientConfig9 from 'C:/Users/mikucat/Desktop/vuepress-hope/vuepress-hope/.vuepress/.temp/theme-hope/config.js'
-import clientConfig10 from 'C:/Users/mikucat/Desktop/vuepress-hope/node_modules/@vuepress/plugin-search/lib/client/config.js'
+import clientConfig10 from 'C:/Users/mikucat/Desktop/vuepress-hope/node_modules/@vuepress/plugin-docsearch/lib/client/config.js'
 
 export const clientConfigs = [
   clientConfig0,
