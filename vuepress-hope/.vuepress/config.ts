@@ -13,9 +13,9 @@ export default defineUserConfig({
 
   plugins: [
     docsearchPlugin({
-      appId: "2YLUVZHK7V",
-      apiKey: "0d221d278f8cc961c1af0cb4b84a8dc5",
-      indexName: "mikucat"
+      appId: "PAD5ON2MBN",
+      apiKey: "7e7a772fc1ec7af177c60a18bfac2fe3",
+      indexName: "vuepress"
     })
   ]
 });
