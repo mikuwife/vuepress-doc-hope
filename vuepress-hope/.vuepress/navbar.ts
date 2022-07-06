@@ -4,10 +4,10 @@ export default navbar([
   "/",
   { 
     text: "代码笔记",
-    icon: "light",
+    icon: "read",
     children: [
-      { text: "前端之路", icon: "strong", link: "/web/html/基础" },
+      { text: "前端", link: "/web/html/基础" },
     ]
   },
-  // { text: 'blog', link: "blog"} 
+  { text: "关于", icon: "profile" ,link: "/about/" }
 ]);

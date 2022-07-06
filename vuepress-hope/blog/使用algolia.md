@@ -1,5 +1,5 @@
 ---
-title: 使用algolia用作网站搜索
+title: 使用Algolia用作网站搜索
 category: vuepress
 tag: vuepress
 ---

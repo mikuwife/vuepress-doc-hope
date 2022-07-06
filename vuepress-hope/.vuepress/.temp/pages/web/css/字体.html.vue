@@ -1,5 +1,4 @@
-<template><div><h1 id="字体" tabindex="-1"><a class="header-anchor" href="#字体" aria-hidden="true">#</a> 字体</h1>
-<h2 id="字体相关样式" tabindex="-1"><a class="header-anchor" href="#字体相关样式" aria-hidden="true">#</a> 字体相关样式</h2>
+<template><div><h2 id="字体相关样式" tabindex="-1"><a class="header-anchor" href="#字体相关样式" aria-hidden="true">#</a> 字体相关样式</h2>
 <ul>
 <li>color: 字体颜色</li>
 <li>font-size: 字体大小
@@ -46,8 +45,8 @@
 <div class="language-html ext-html line-numbers-mode"><pre v-pre class="language-html"><code>/* &amp;#x后面跟着字符编码 */
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>fas<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>&amp;#xf0f3<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="图标库推荐" tabindex="-1"><a class="header-anchor" href="#图标库推荐" aria-hidden="true">#</a> 图标库推荐</h3>
-<p><a href="https://fontawesome.com/" target="_blank" rel="noopener noreferrer">font-awesome图标库<ExternalLinkIcon/></a>
-<a href="https://www.iconfont.cn/" target="_blank" rel="noopener noreferrer">阿里字体图标库<ExternalLinkIcon/></a></p>
+<p><a href="https://fontawesome.com/" target="_blank" rel="noopener noreferrer">font-awesome图标库<ExternalLinkIcon/></a></p>
+<p><a href="https://www.iconfont.cn/" target="_blank" rel="noopener noreferrer">阿里字体图标库<ExternalLinkIcon/></a></p>
 <h2 id="行高" tabindex="-1"><a class="header-anchor" href="#行高" aria-hidden="true">#</a> 行高</h2>
 <div class="custom-container info"><p class="custom-container-title">行高(line height)</p>
 <ul>
